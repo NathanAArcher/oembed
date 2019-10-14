@@ -1,0 +1,11 @@
+---
+- provider_name: newfastuff.com
+  provider_url: https://newfastuff.com/
+  endpoints:
+  - schemes:
+    - https://newfastuff.com/wp-content/uploads/*/*/*
+    url: https://newfastuff.com/oembed
+    example_urls:
+    - https://newfastuff.com/oembed/?format=json&url=https%3A%2F%2Fnewfastuff.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fdvnyyg6kzfs31.jpg
+    discovery: true
+...
